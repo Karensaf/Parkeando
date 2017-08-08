@@ -1,0 +1,12 @@
+body{
+    background: green;
+}
+
+#header{
+  height: 80px;
+}
+
+h1{
+  font-family: fantasy;
+  text-align: center;
+}
