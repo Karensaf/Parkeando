@@ -1,12 +1,12 @@
 body{
-    background: pink;
+
 }
 
 #header{
   height: 80px;
 }
 
-h1{
-  font-family: fantasy;
-  text-align: center;
+img {
+  height: 129px;
+  width: 450px;
 }
