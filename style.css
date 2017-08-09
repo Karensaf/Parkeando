@@ -22,3 +22,35 @@ img {
 .prueba2 {
   height: 600px;
 }
+/*a partir de aquí le movió Karen*/
+
+#footer{
+  background-color: #0874cc;
+  height: 90px;
+  padding: 30px;
+  padding-left: 160px;
+  padding-top: 20px;
+
+}
+
+
+.iconos{
+  height: 50px;
+  width: 50px;
+
+}
+
+#fin{
+
+  height: 30px;
+  text-align: center;
+  background-color: #36d6f1;
+
+}
+h6{
+  font-size: 15px;
+  color: black;
+
+}
+
+/*hasta aquí*/
