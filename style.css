@@ -6,12 +6,9 @@ body{
   height: 80px;
 }
 
-.navbar-header{
-  width: 350px;
-}
+
 .navbar-brand {
   height: 129px;
-  width: 450px;
 }
 
 .nav {
@@ -22,7 +19,8 @@ body{
 #letras {
   color: #0874cc;
   background-color: #f8f8f8;
-  border-color: #f8f8f8;
+  border: 2px solid #f8f8f8;
+
 }
 
 #letras:hover {
@@ -51,7 +49,7 @@ background-color: #f8f8f8;
 
 .btn-primary {
   background-color: #21b903;
-  border-color: #21b903;
+  border: 2px solid #21b903;
 }
 
 
@@ -68,3 +66,35 @@ background-color: #f8f8f8;
 #registra {
   margin-left: 20px;
 }
+/*a partir de aquí le movió Karen*/
+
+#footer{
+  background-color: #0874cc;
+  height: 90px;
+  padding: 30px;
+  padding-left: 160px;
+  padding-top: 20px;
+
+}
+
+
+.iconos{
+  height: 50px;
+  width: 50px;
+
+}
+
+#fin{
+
+  height: 30px;
+  text-align: center;
+  background-color: #36d6f1;
+
+}
+h6{
+  font-size: 15px;
+  color: black;
+
+}
+
+/*hasta aquí*/
