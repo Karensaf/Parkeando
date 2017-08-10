@@ -6,19 +6,65 @@ body{
   height: 80px;
 }
 
-img {
+.navbar-header{
+  width: 350px;
+}
+.navbar-brand {
   height: 129px;
   width: 450px;
 }
 
 .nav {
-   padding-top: 40px;
+   padding-top: 45px;
 }
 
-.prueba {
-  height:  400px;
+
+#letras {
+  color: #0874cc;
+  background-color: #f8f8f8;
+  border-color: #f8f8f8;
 }
 
-.prueba2 {
-  height: 600px;
+#letras:hover {
+background-color: #f8f8f8;
+  color: black;
+  border: 2px solid #0874cc;
+}
+
+#menu {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.btn-menu{
+
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
+
+.btn {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn-primary {
+  background-color: #21b903;
+  border-color: #21b903;
+}
+
+
+.btn-primary:hover {
+  background-color: #f8f8f8;
+    color: black;
+    border: 2px solid #21b903;
+}
+
+#log {
+  margin-left: 20px;
+}
+
+#registra {
+  margin-left: 20px;
 }
