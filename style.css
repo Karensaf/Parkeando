@@ -15,6 +15,12 @@ body{
    padding-top: 45px;
 }
 
+<<<<<<< HEAD
+=======
+.navbar {
+  margin-bottom: 5px;
+}
+>>>>>>> 8b14906329c59a41df998b102338e2d709616c4f
 
 #letras {
   color: #0874cc;
@@ -45,6 +51,29 @@ background-color: #f8f8f8;
 .btn {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
+<<<<<<< HEAD
+}
+
+.btn-primary {
+  background-color: #21b903;
+  border: 2px solid #21b903;
+}
+
+
+.btn-primary:hover {
+  background-color: #f8f8f8;
+    color: black;
+    border: 2px solid #21b903;
+}
+
+#log {
+  margin-left: 20px;
+}
+
+#registra {
+  margin-left: 20px;
+=======
+>>>>>>> 8b14906329c59a41df998b102338e2d709616c4f
 }
 
 .btn-primary {
@@ -66,6 +95,23 @@ background-color: #f8f8f8;
 #registra {
   margin-left: 20px;
 }
+
+#busca {
+
+  height: 450px;
+}
+
+#mapa {
+
+}
+
+#lugares{
+  text-align: center;
+  color: #0874cc;
+}
+
+
+
 /*a partir de aquí le movió Karen*/
 
 #footer{
