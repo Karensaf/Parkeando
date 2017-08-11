@@ -66,6 +66,16 @@ background-color: #f8f8f8;
 #registra {
   margin-left: 20px;
 }
+
+.principal{
+  text-align: center;
+  color: #0874cc;
+}
+.mapa {
+  height: 480px;
+  display: flex;
+  justify-content: center;
+}
 /*a partir de aquí le movió Karen*/
 
 #footer{
@@ -96,5 +106,6 @@ h6{
   color: black;
 
 }
+
 
 /*hasta aquí*/
