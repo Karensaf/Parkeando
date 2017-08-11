@@ -15,6 +15,9 @@ body{
    padding-top: 45px;
 }
 
+.navbar {
+  margin-bottom: 5px;
+}
 
 #letras {
   color: #0874cc;
@@ -67,15 +70,22 @@ background-color: #f8f8f8;
   margin-left: 20px;
 }
 
-.principal{
+#busca {
+
+  height: 450px;
+}
+
+#mapa {
+
+}
+
+#lugares{
   text-align: center;
   color: #0874cc;
 }
-.mapa {
-  height: 480px;
-  display: flex;
-  justify-content: center;
-}
+
+
+
 /*a partir de aquí le movió Karen*/
 
 #footer{
@@ -106,6 +116,5 @@ h6{
   color: black;
 
 }
-
 
 /*hasta aquí*/
