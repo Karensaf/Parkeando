@@ -15,12 +15,11 @@ body{
    padding-top: 45px;
 }
 
-<<<<<<< HEAD
-=======
+
 .navbar {
   margin-bottom: 5px;
 }
->>>>>>> 8b14906329c59a41df998b102338e2d709616c4f
+
 
 #letras {
   color: #0874cc;
@@ -72,8 +71,6 @@ background-color: #f8f8f8;
 
 #registra {
   margin-left: 20px;
-=======
->>>>>>> 8b14906329c59a41df998b102338e2d709616c4f
 }
 
 .btn-primary {
@@ -145,7 +142,7 @@ background-color: #f8f8f8;
 }
 h6{
   font-size: 15px;
-  color: white;
+  color: black;
 
 }
 
