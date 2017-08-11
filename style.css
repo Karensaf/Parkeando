@@ -70,6 +70,12 @@ background-color: #f8f8f8;
   margin-left: 20px;
 }
 
+@media only screen and (max-width: 790px){
+  .menu-tab{
+    clear: both;
+  }
+}
+
 #busca {
 
   height: 450px;
