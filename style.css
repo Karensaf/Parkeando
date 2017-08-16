@@ -29,9 +29,10 @@ body{
 }
 
 #letras:hover {
-background-color: #f8f8f8;
+  background-color: #f8f8f8;
   color: black;
   border: 2px solid #0874cc;
+  border-radius: 10px;
 }
 
 #menu {
@@ -86,10 +87,12 @@ background-color: #f8f8f8;
 
 #log {
   margin-left: 20px;
+  margin-top: 10px;
 }
 
 #registra {
   margin-left: 20px;
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 790px){
@@ -102,6 +105,7 @@ background-color: #f8f8f8;
 
 #busca {
   height: 450px;
+  margin-top: 140px;
   margin-bottom: 5px;
 }
 
@@ -173,10 +177,11 @@ background-color: #f8f8f8;
 
 /*Botones busca*/
 
-/* Imágens cómo funciona*/
+/* Cómo funciona*/
 
 #pasos {
 background: #e7e7e7;
+margin-top: 20px;
 }
 
 #barra {
@@ -189,6 +194,8 @@ background: #e7e7e7;
   text-shadow: 1px 1px 2px #012b4d;
 
 }
+
+/* Cómo funciona*/
 
 /* Imágenes cómo funcina*/
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
@@ -337,10 +344,11 @@ figure.snip1477.hover figcaption {
 }
 /*Imágenes cómo funcina*/
 
+/*Formas de pago*/
+
 #pago {
   height: 300px;
   background-color: #0874cc;
-    background-image: url(img/calle2.png);
   text-align: center;
   font-family: 'Oswald';
   font-size: 28px;
@@ -349,6 +357,24 @@ figure.snip1477.hover figcaption {
   text-shadow: 1px 1px 2px #033965;
 }
 
+#formas {
+  height: 60%;
+  width: 60%;
+}
+
+
+
+@media only screen and (max-width: 768px){
+  #formas{
+    height: 20%;
+    width: 20%;
+  }
+  #pago {
+    height: 500px;
+  }
+}
+
+/*Formas de pago*/
 #faqs{
   height: 300px;
   background-color: #e7e7e7;
@@ -367,6 +393,7 @@ figure.snip1477.hover figcaption {
 
 #footer{
   background-color: #0874cc;
+  background-image: url(img/calle3.png);
   height: 90px;
   padding: 30px;
   padding-left: 160px;
