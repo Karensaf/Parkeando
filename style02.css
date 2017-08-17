@@ -1,0 +1,188 @@
+
+body{
+background-image: url(img/mapa2.png);
+}
+
+
+/*inicio header*/
+
+#header{
+  height: 80px;
+}
+
+
+.navbar-brand {
+  height: 129px;
+}
+
+.nav {
+   padding-top: 45px;
+}
+
+
+.navbar {
+  margin-bottom: 5px;
+}
+
+
+#letras {
+  color: #0874cc;
+  background-color: #f8f8f8;
+  border: 2px solid #f8f8f8;
+
+}
+
+#letras:hover {
+background-color: #f8f8f8;
+  color: black;
+  border: 2px solid #0874cc;
+}
+
+#menu {
+  font-size: 14px;
+  font-family: 'Oswald';
+}
+
+.btn-menu{
+
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
+
+.btn {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn-primary {
+  background-color: #21b903;
+  border: 2px solid #21b903;
+}
+
+
+.btn-primary:hover {
+  background-color: #f8f8f8;
+    color: black;
+    border: 2px solid #21b903;
+}
+
+#log {
+  margin-left: 20px;
+}
+
+#registra {
+  margin-left: 20px;
+}
+
+.btn-primary {
+  background-color: #21b903;
+  border: 2px solid #21b903;
+}
+
+
+.btn-primary:hover {
+  background-color: #f8f8f8;
+    color: black;
+    border: 2px solid #21b903;
+}
+
+#log {
+  margin-left: 20px;
+}
+
+#registra {
+  margin-left: 20px;
+}
+
+/* fin header*/
+
+
+
+/*mio*/
+h2{
+  color: #0874cc;
+  font-size: 50px;
+  font-family: 'Oswald';
+  text-align: center;
+
+
+}
+
+.registro{
+
+  height: 850px;
+  width: 500px;
+  background-color: #e7e7e7;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 15px;
+}
+@media only screen and (max-width: 790px){
+  .registro{
+    height: 
+  }
+}
+input[type=text]{
+  width: 400px;
+
+}
+
+form{
+  font-family: 'Oswald';
+  font-size: 20px;
+}
+p{
+  font-size: 15px;
+  color: grey;
+  font-family: 'Oswald';
+} 
+h3{
+  color: #0874cc;
+  font-size: 50px;
+  font-family: 'Oswald';
+  text-align: center;
+
+
+}
+.inform{
+  color: #e8e4e4;
+}
+
+/*mio*/
+
+/*inicio del footer*/
+
+  #footer{
+  background-color: #0874cc;
+  background-image: url(img/calle3.png);
+  height: 90px;
+  padding: 30px;
+  padding-left: 160px;
+  padding-top: 20px;
+
+}
+
+
+.iconos{
+  height: 50px;
+  width: 50px;
+
+}
+
+#fin{
+
+  height: 30px;
+  text-align: center;
+  background-color: #36d6f1;
+
+}
+h6{
+  font-size: 15px;
+  color: black;
+  font-family: 'Oswald';
+}
+
+/*fin del footer*/
