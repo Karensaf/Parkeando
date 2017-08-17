@@ -530,6 +530,12 @@ padding-left: 20px;
   padding-top: 20px;
 
 }
+.final{
+  color: black;
+  font-family: 'Oswald'
+  font-size: 30px;
+}
+.final:hover{
 
 .accordion {
   margin-top: 10px;
@@ -554,7 +560,9 @@ h6{
   font-family: 'Oswald';
 
 }
-
+.link-nav{
+  float: left
+}
 
 /*hasta aquí*/
 
