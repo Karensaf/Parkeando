@@ -1,3 +1,33 @@
+$('#a1').on('click', function(e){
+  e.preventDefault()
+
+$('html,body').animate({
+  scrollTop: $('#busca').offset().top - 130}, 'slow');
+});
+
+$('#a2').on('click', function(e){
+  e.preventDefault()
+
+$('html,body').animate({
+  scrollTop: $('#pasos').offset().top - 130}, 'slow');
+});
+
+$('#a3').on('click', function(e){
+  e.preventDefault()
+
+$('html,body').animate({
+  scrollTop: $('#pago').offset().top - 130}, 'slow');
+});
+
+$('#a4').on('click', function(e){
+  e.preventDefault()
+
+$('html,body').animate({
+  scrollTop: $('#faqs').offset().top - 130}, 'slow');
+});
+
+
+
 var acc = document.getElementsByClassName("accordion");
 var i;
 
