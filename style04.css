@@ -124,7 +124,7 @@ font-size: 50px;
   font-size: 30px;
 }
 .final:hover{
-    
+
     color: white;
   }
 
@@ -147,6 +147,10 @@ h6{
   font-size: 15px;
   color: black;
   font-family: 'Oswald';
+}
+
+.link-nav{
+  float: left
 }
 
 /*fin del footer*/

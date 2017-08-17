@@ -479,7 +479,15 @@ div.panel {
   padding-top: 20px;
 
 }
+.final{
+  color: black;
+  font-family: 'Oswald'
+  font-size: 30px;
+}
+.final:hover{
 
+    color: white;
+  }
 
 .iconos{
   height: 50px;
@@ -500,6 +508,8 @@ h6{
   font-family: 'Oswald';
 
 }
-
+.link-nav{
+  float: left
+}
 
 /*hasta aquí*/
