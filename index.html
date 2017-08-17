@@ -8,10 +8,11 @@
     <link href="https://fonts.googleapis.com/css?family=Boogaloo|Bubblegum+Sans|Oswald" rel="stylesheet">
 
 
+
   </head>
   <body>
   <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
+  <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -25,7 +26,7 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav " id="menu">
+      <ul class="nav navbar-nav" id="menu">
           <li><a class="lugar btn-menu menu-tab" href="#busca" style="text-decoration:none"  id="letras">BUSCA LUGAR</a></li>
           <li><a class="funciona btn-menu menu-tab" href="#pasos" style="text-decoration:none" id="letras">¿CÓMO FUNCIONA?</a></li>
           <li><a class="pago btn-menu menu-tab" href="#pago" style="text-decoration:none" id="letras">FORMAS DE PAGO</a></li>
@@ -42,26 +43,25 @@
 
 <div class="row" id="busca">
 
-
     <div class="col-sm-4" id="lugares">
           <p class="titulos">DÓNDE PARKEAR</p>
           <br>
           <br>
         <div class="parquimetro">
         <button class="button"><img src="img/par.png" width="100" height="100" alt=""></button>
-        <p class="texto">LUGAR CON PARQUÍMETRO</p>
+        <p class="texto">Lugar con parquímetro</p>
 
 
         </div>
 
         <div class="zonas">
         <button class="button"><img src="img/zonas.png" width="100" height="100" alt=""></button>
-        <p class="texto">ESTACIONAMIENTO PÚBLICO</p>
+        <p class="texto">Estacionamiento público</p>
         </div>
 
         <div class="estacionamiento">
           <button class="button"><img src="img/esta.png" width="100" height="100" alt=""></button>
-          <p class="texto">MEJORES ESTACIONAMIENTOS</p>
+          <p class="texto">Estacionamientos por zona</p>
 
         </div>
 
@@ -133,15 +133,25 @@
 
 <p class="">FORMAS DE PAGO</p>
   </div>
-<div class="col-sm-4">
- <img src="img/efectivo.png" alt="efectivo" id="formas">
-</div>
 
-<div class="col-sm-4">
-  <img src="img/tarjeta.png" alt="tarjeta" id="formas">
+  <div class="col-sm-4 contenedor">
+   <img src="img/efectivo.png" alt="efectivo" class="iconos" id="formas">
+   <div class="overlay">
+     <div class="exp">Paga en efectivo con tu código QR en cualquier Oxxo y 7Eleven</div>
+   </div>
+  </div>
+
+<div class="col-sm-4 contenedor">
+  <img src="img/tarjeta.png" alt="tarjeta" class="iconos" id="formas">
+  <div class="overlay">
+    <div class="exp">Paga desde tu celular con cualquier tarjeta de crédito o débito</div>
+  </div>
 </div>
-<div class="col-sm-4">
-  <img src="img/reloj.png" alt="alarma" id="formas">
+<div class="col-sm-4 contenedor">
+  <img src="img/reloj.png" alt="alarma" class="iconos" id="formas">
+  <div class="overlay">
+    <div class="exp">Activa alertas de tiempo y paga por más sin moverte de tu lugar</div>
+  </div>
 </div>
 </div>
 
@@ -151,9 +161,24 @@
 
 <p class="">FAQS</p>
   </div>
+  <button class="accordion">¿Qué es Parkeando? <span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+  <div class="panel">
+    <p>Lorem ipsum...</p>
+  </div>
+
+  <button class="accordion">Section 2</button>
+  <div class="panel">
+    <p>Lorem ipsum...</p>
+  </div>
+
+  <button class="accordion">Section 3</button>
+  <div class="panel">
+    <p>Lorem ipsum...</p>
+  </div>
+
 </div>
 
-<!--inicio footer-->
+
 <div class="row">
   <div class="col-sm-4"  id="footer">
 
@@ -174,9 +199,12 @@
     <h6>Parkeando.com 2017 © Todos los derechos reservados. Anilú & Karen</h6>
   </div>
 </div>
-<!--fin footer-->
+
+
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="action.js">
+</script>
   </body>
 </html>
