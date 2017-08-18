@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Mejores Estacionamientos</title>
+	<title>Alertas</title>
 	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="style06.css">
     <link rel="shortcut icon" href="img/iconito.png">
@@ -32,9 +32,8 @@
           <li><a class="funciona btn-menu menu-tab" href="#funciona" style="text-decoration:none" id="letras">¿CÓMO FUNCIONA?</a></li>
           <li><a class="pago btn-menu menu-tab" href="#funciona" style="text-decoration:none" id="letras">FORMAS DE PAGO</a></li>
           <li><a class="faqs btn-menu menu-tab" href="#funciona" style="text-decoration:none" id="letras">FAQS</a></li>
-           <li><button type="button" class="btn btn-primary" id="log">LOG IN</button></li>
-          <li><button type="button" class="btn btn-primary" id="log">REGÍSTRATE</button></li>
-
+          <a class="link-nav" href="file:///Users/karen/Desktop/Parkeando/index03.html"><li><button type="button" class="btn btn-primary" id="log">LOG IN</button></li></a>
+        <a class="link-nav" href="file:///Users/karen/Desktop/Parkeando/index02.html?Nombre=A&correo=&marca=&modelo=&placas=&SendButton=Send"><li><button type="button" class="btn btn-primary" id="registra">REGÍSTRATE</button></li></a>
         </ul>
 
 
@@ -45,24 +44,61 @@
 
 <!-- fin header-->
 
+<!--alarma inicio -->
+	<div class="row">
+		<div class="col-sm-12">
+			<h1>¡Establecer alerta!</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+<!--cronometro-->
+<div id="contenedor" class="cronometro">
+		<div class="reloj" id="Horas">00</div>
+		<div class="reloj" id="Minutos">:00</div>
+		<div class="reloj" id="Segundos">:00</div>
+		<div class="reloj" id="Centesimas">:00</div>
+		<input type="button" class="boton" id="inicio" value="Start &#9658;" onclick="inicio();">
+		<input type="button" class="boton" id="parar" value="Stop &#8718;" onclick="parar();" disabled>
+		<input type="button" class="boton" id="continuar" value="Resume &#8634;" onclick="inicio();" disabled>
+		<input type="button" class="boton" id="reinicio" value="Reset &#8635;" onclick="reinicio();" disabled>
+	</div>
+<!--fin cronometro-->
 
+	</div>
+	<div class="row">
+		<div class="col-sm-12 opciones">
+			<label  for="gender"><span>¿Cómo desea recibir su notificación?</span></label>
+			<br>
+			<input  type="radio" id="gender" name="gender" value="correo">&nbsp;&nbsp;&nbsp; correo
+			<br>
+			<input type="radio" id="gender" name="gender" value="sms">&nbsp;&nbsp; mensaje de texto
+			<br>
+			<input type="radio" id="gender" name="gender" value="llamada">&nbsp;&nbsp; llamada
+		</div>
 
+	</div>
+	<div class="row">
+		<div class="col-sm-12" id="opciones1">
+			<a href="file:///Users/karen/Desktop/Parkeando/index12.html"><button type="button" class="btn btn-primary">ENVIAR</button></a>
+		</div>
+	</div>
+<!-- alarma final-->
 
 <!--inicio del footer-->
 
     <div class="row">
-  <div class="col-sm-4"  id="footer">
+      <div class="col-sm-6"  id="footer">
+        <a href="file:///Users/karen/Desktop/Parkeando/index05.html" class="final">Politíca de privacidad</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="file:///Users/karen/Desktop/Parkeando/index04.html" class="final">Términos y condiciones</a>
 
-
-  </div>
-  <div class="col-sm-4"  id="footer">
-
-   </div>
-  <div class="col-sm-4 fotico"  id="footer">
-    <a href="https://www.facebook.com/cabrita.dev"><img class="iconos" src="img/fb.png"></a>
-    <a href="https://twitter.com/menajoselu?lang=es"><img class="iconos" src="img/twt.png"></a>
-    <a href="https://www.instagram.com/cabras/"><img class="iconos" src="img/wa.png"></a>
-    <a href="https://twitter.com/menajoselu?lang=es"><img class="iconos" src="img/mail.png"></a>
+      </div>
+  <div class="col-sm-6 fotico"  id="footer">
+    <a href="https://www.facebook.com/parkeando.dev"><img class="iconos" src="img/fb.png"></a>
+    <a href="https://twitter.com/hashtag/estacionamiento?lang=es"><img class="iconos" src="img/twt.png"></a>
+    <a href="https://web.telegram.org/#/login"><img class="iconos" src="img/wa.png"></a>
+    <a href="https://accounts.google.com/signin/oauth/identifier?client_id=1068836607260-162p6qsus02cenu78tl5se48csss359m.apps.googleusercontent.com&as=614b0b5a359d61ba&destination=https%3A%2F%2Fwww.goodreads.com&approval_state=!ChRBc1o5UnBRMkY2czd2d2FORFZONxIfQTZGYk9XR0dzMzRUb1BPVmxUTmg0eGVNVDV6djNoVQ%E2%88%99ADiIGyEAAAAAWZaPZL_v6mTBCQeYXomboEXUPYCYcG0M&xsrfsig=AHgIfE_2IwX35HEd41kxzI85Uf_WNVY89A&flowName=GeneralOAuthFlow"><img class="iconos" src="img/mail.png"></a>
   </div>
 </div>
 <div class="row">
@@ -77,6 +113,7 @@
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="action.js">
 <!--header-->
 </body>
 </html>

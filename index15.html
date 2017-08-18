@@ -2,9 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Log in</title>
+	<title>Estacionamientos por zona</title>
 	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
-    <link type="text/css" rel="stylesheet" href="style03.css">
+    <link type="text/css" rel="stylesheet" href="style14.css">
     <link rel="shortcut icon" href="img/iconito.png">
     <link href="https://fonts.googleapis.com/css?family=Boogaloo|Bubblegum+Sans|Oswald" rel="stylesheet">
 </head>
@@ -32,7 +32,8 @@
           <li><a class="funciona btn-menu menu-tab" href="#funciona" style="text-decoration:none" id="letras">¿CÓMO FUNCIONA?</a></li>
           <li><a class="pago btn-menu menu-tab" href="#funciona" style="text-decoration:none" id="letras">FORMAS DE PAGO</a></li>
           <li><a class="faqs btn-menu menu-tab" href="#funciona" style="text-decoration:none" id="letras">FAQS</a></li>
-          <a class="link-nav" href="file:///Users/karen/Desktop/Parkeando/index02.html?Nombre=A&correo=&marca=&modelo=&placas=&SendButton=Send"><li><button type="button" class="btn btn-primary" id="registra">REGÍSTRATE</button></li></a>
+        <a class="link-nav" href="file:///Users/karen/Desktop/Parkeando/index03.html"><li><button type="button" class="btn btn-primary" id="log">LOG IN</button></li></a>
+
         </ul>
 
 
@@ -42,52 +43,50 @@
 </nav>
 
 <!-- fin header-->
-
-<!--inicio log in-->
+<!--estacionamientos-->
 <div class="row">
-  <div class="col-xs-offset-2 col-xs-8 caja col-md-6 col-md-offset-3" >
-        <form class="form-horizontal">
-    <div class="form-group">
-      <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-      <div class="col-sm-10">
-        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-      </div>
-    </div>
-    <div class="form-group">
-      <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-      <div class="col-sm-10">
-        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-      </div>
-    </div>
-    <div class="form-group">
-      <div class="col-sm-offset-2 col-sm-10">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox"> Remember me
-          </label>
-        </div>
-      </div>
-    </div>
-    <div class="form-group">
-      <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" class="btn btn-default">Sign in</button>
-      </div>
-    </div>
-  </form>
+  <div class="col-sm-12">
+    <h1>Estacionamientos por zona</h1>
   </div>
 </div>
-<!--fin del log in-->
 
+<div class="row">
+  <div class="col-sm-12" id="colonias">
+    <select name="COLONIAS">
+      <option>Narvarte</option>
+      <option>Del Valle Centro</option>
+      <option>Del Valle Norte</option>
+      <option>Del Valle <source src="https://" type="video/"></option>
+      <option>Álamos</option>
+      <option>Del Carmen</option>
+      <option>Del Lago</option>
+      <option>Insurgentes</option>
+      <option>Piedad Narvarte</option>
+      <option>Narvarte Oriente</option>
+  <option selected></option>
+
+  </select>
+  </div>
+
+</div>
+<br><br>
+
+<div class="row">
+  <div  class="col-sm-offset-2 col-sm-8 col-xs-12" id="mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15062.704906463396!2d-99.16222135!3d19.29644125!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1502387910961" width="820" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
 
 <!--inicio del footer-->
 
-    <div class="row">
+		<div class="row">
 			<div class="col-sm-6"  id="footer">
 		    <a href="file:///Users/karen/Desktop/Parkeando/index05.html" class="final">Politíca de privacidad</a>
 		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		    <a href="file:///Users/karen/Desktop/Parkeando/index04.html" class="final">Términos y condiciones</a>
 
 		  </div>
+
   <div class="col-sm-6 fotico"  id="footer">
 		<a href="https://www.facebook.com/parkeando.dev"><img class="iconos" src="img/fb.png"></a>
     <a href="https://twitter.com/hashtag/estacionamiento?lang=es"><img class="iconos" src="img/twt.png"></a>
@@ -99,7 +98,6 @@
   <div class="col-sm-12 " id="fin">
     <h6>Parkeando.com 2017 © Todos los derechos reservados. Anilú & Karen</h6>
   </div>
-
 </div>
 
 <!--fin del footer-->

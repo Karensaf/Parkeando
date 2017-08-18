@@ -92,10 +92,80 @@ background-color: #f8f8f8;
 
 /* fin header*/
 
+/*inicio parquimetro*/
+
+#mapa{
+  padding: 20px;
+  margin: 20px;
+}
+/*estilo cronometro*/
+.cronometro{
 
 
+}
+/*cronometro*/
+*{
+	margin: 0;
+	padding: 0;
+
+}
+#contenedor{
+	margin: 10px auto;
+	width: 600px;
+	height: 200px;
 
 
+}
+.reloj{
+
+	float: left;
+	font-size: 80px;
+	font-family: Courier,sans-serif;
+	color: #363431;
+  text-align: center;
+}
+
+.boton{
+	outline: none;
+	border: 1px solid #363431;
+	color: white;
+	width: 128px;
+	height: 30px;
+	text-shadow: 0px -1px 1px black;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: Helvetica;
+	cursor: pointer;
+	background-image: linear-gradient(#3aad02,#2c6f05);
+
+}
+.boton:active{
+	background-image: linear-gradient(#2c6f05,#3aad02);
+
+}
+.boton:hover{
+	box-shadow: 0px 0px 14px #3aad02;
+}
+/*fin cronometro*/
+.opciones{
+    text-align: center;
+    color: #0874cc;
+    font-size: 20px;
+    padding: 20px;
+}
+#opciones1{
+  text-align: center;
+  padding: 20px;
+}
+/*fin parquimetro*/
+
+h1{
+  color: #0874cc;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Oswald';
+  padding: 20px;
+}
 
 /*inicio del footer*/
 
@@ -114,6 +184,14 @@ background-color: #f8f8f8;
   height: 50px;
   width: 50px;
 
+}
+.final{
+  color: black;
+  font-size: 20px;
+  font-family: 'Oswald'
+}
+.final:hover{
+  color: white;
 }
 
 #fin{

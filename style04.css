@@ -97,6 +97,7 @@ h1{
 color: #0874cc;
 text-align: center;
 font-size: 50px;
+font-family: 'Oswald';
 }
 
 
@@ -120,8 +121,8 @@ font-size: 50px;
 
 .final{
   color: black;
+  font-size: 20px;
   font-family: 'Oswald'
-  font-size: 30px;
 }
 .final:hover{
 
