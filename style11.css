@@ -102,6 +102,19 @@ h1{
   padding: 20px;
   margin: 20px;
 }
+h4{
+
+    color: #21b903;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald';
+    padding: 10px;
+    margin: 10px;
+
+}
+#codigoqr{
+  text-align: center;
+}
 .tick{
   width: 150px;
   height: 150px;

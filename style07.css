@@ -127,7 +127,11 @@ span{
   text-align: center;
   margin: 30px;
 }
-
+#codigoqr{
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
 
 /*inicio del footer*/
 
